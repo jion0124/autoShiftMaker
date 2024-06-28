@@ -43,18 +43,28 @@
 }
 
 .bg-yellow {
-  background-color: yellow;
+  background-color: yellow !important;
 }
 
+.bg-preferred {
+  background-color: yellow !important;
+}
+
+.bg-off {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+
 .text-red {
-  color: red;
+  color: red !important;
 }
 
 .text-blue {
-  color: blue;
+  color: blue !important;
 }
 
 .text-sunday {
-  color: red;
+  color: red !important;
 }
 

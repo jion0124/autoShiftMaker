@@ -32,7 +32,7 @@ function App() {
 
   const generateShifts = async () => {
     try {
-        const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+        const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
         const response = await fetch(`${backendUrl}/generate_shifts`, {
             method: 'POST',
